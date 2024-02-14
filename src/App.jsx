@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import imageSrc from './assets/flower-gentleman.gif';
-import kissSrc from './assets/kiss.gif';
+import imageSrc from './assets/flowers.gif';
+import kissSrc from './assets/wink.gif';
 import kapSrc from './assets/kap.png';
 import './App.css';
 import { Analytics } from '@vercel/analytics/react';
@@ -65,7 +65,7 @@ function App() {
         {showMessage && (
           <div style={{ marginTop: '20px' }}>
             <img src={kissSrc} alt="Your Image" style={{ width: '200px' }} />
-            <h2>Yay, I love you! Muah!</h2>
+            <h2>You are worth it and beautiful &hearts; HVD! </h2>
             {/* <img src={kapSrc} alt="Your Image" style={{ width: '200px' }} />
             <h2>Ulul pakyu!</h2> */}
           </div>
