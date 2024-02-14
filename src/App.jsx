@@ -3,6 +3,7 @@ import imageSrc from './assets/flower-gentleman.gif';
 import kissSrc from './assets/kiss.gif';
 import kapSrc from './assets/kap.png';
 import './App.css';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [yesSize, setYesSize] = useState(16);
@@ -70,6 +71,7 @@ function App() {
           </div>
         )}
       </div>
+      <Analytics />
     </>
   );
 }
